@@ -1,16 +1,32 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
+    <style>
+      .button {
+        background-color: #ED1566;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        text-align: center;
+        font-family: 'Arial';
+      }
+      .label {
+        font-family: 'Arial';
+      }
+      .input {
+	  
+        font-size: 14px;
+      }
+    </style>
+<script src="/js.js"></script>
+
 </head>
-<body>
-
-<SCRIPT src="/js.js"></SCRIPT>
-
-<CENTER>
-<FORM>
-<button type="button" style="width: 150px; height: 54px; position: center; min-height: 31px;" onclick="passWord()">Entrez le mot de passe</button>
-</FORM>
-</CENTER>
-
-</body>
+  
+  <body>
+  <center>
+     <input type="text" class="input" id="theMessage">
+	 <br><br>
+    <button class="button" onclick="button_click()">Validez le mot de passe</button>
+	<center>
+  </body>
 </html>
