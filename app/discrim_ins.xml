@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<skin name="basic" class="edu.xtec.jclic.skins.BasicSkin" image="discrim.png">
+  <dimension id="preferredSize" width="600" height="450"/>
+  <color id="fill" value="0xFEFEFE"/>
+  <rectangle id="frame" left="0" top="0" width="600" height="450"/>
+  <rectangle id="player" left="108" top="32" width="366" height="310"/>
+  <rectangle id="messages" left="108" top="357" width="366" height="80"/>
+  <slicer left="300" right="465" top="157" bottom="245"/>
+  <!-- statusBar>
+    <style margin="0">
+      <font family="Helvetica" size="11"/>
+      <color id="foreground" value="black"/>
+    </style>
+    <msgArea id="main">
+      <rectangle left="6" top="130" width="120" height="15"/>
+      <alignment hAlign="left"/>
+    </msgArea>
+    <msgArea id="aux">
+      <rectangle left="130" top="130" width="47" height="15"/>
+      <alignment hAlign="left"/>
+    </msgArea>
+  </statusBar -->
+  <buttons>
+    <settings>
+      <dimension width="97" height="74"/>
+      <offset id="over" right="0" down="74"/>
+      <offset id="active" right="0" down="148"/>
+      <offset id="disabled" right="0" down="222"/>
+    </settings>
+    <button id="prev">
+      <settings>
+        <dimension width="97" height="75"/>
+        <offset id="over" right="0" down="75"/>
+        <offset id="active" right="0" down="150"/>
+        <offset id="disabled" right="0" down="225"/>
+      </settings>
+      <point id="pos" left="2" top="250"/>
+      <point id="source" left="8" top="458"/>
+    </button>
+    <button id="next">
+      <settings>
+        <dimension width="113" height="75"/>
+        <offset id="over" right="0" down="75"/>
+        <offset id="active" right="0" down="150"/>
+        <offset id="disabled" right="0" down="225"/>
+      </settings>
+      <point id="pos" left="484" top="250"/>
+      <point id="source" left="105" top="458"/>
+    </button>
+    
+    
+  </buttons>
+  
+  
+</skin>
+
